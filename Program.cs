@@ -14,42 +14,26 @@ namespace project1
 
              
          string number1 = Console.ReadLine();
-
-            
             double num1 = Convert.ToDouble(number1);
-
-
-            Console.WriteLine("Accelaration of stone...");
+            Console.WriteLine("Accelaration of stone:");
             
-           string number2 = Console.ReadLine();
-
-            
+            string number2 = Console.ReadLine();
             double num2 = Convert.ToDouble(number2);
 
-            Console.WriteLine("Time of stone between two places...");
+            Console.WriteLine("Time of stone between two places:");
 
-            
-           string number3 = Console.ReadLine();
-
-            
+            string number3 = Console.ReadLine();
             double num3 = Convert.ToDouble(number1);
-
-
-            
-
-          double  speed = num1 + num2*num3;
+            double  speed = num1 + num2 * num3;
             
              String num = Console.ReadLine();
-            int number = Convert.ToInt32(num);
+             int number = Convert.ToInt32(num);
             
              speed = speed + number;
-
-
-       double overall = speed - speed * 0.2 ;
-
-
-            Console.WriteLine("Total value is "  + overall);
-            Console.ReadLine();
+            
+             double overall = speed - speed * 0.2 ;
+             Console.WriteLine("Total value is: "  + overall);
+             Console.ReadLine();
         }
     }
 }
